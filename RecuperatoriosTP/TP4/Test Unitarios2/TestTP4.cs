@@ -27,9 +27,9 @@ namespace Test_Unitarios2
                 Paquete p = new Paquete(track, "d");
                 Paquete p2 = new Paquete(track, "d");
 
-                    correo += p;
-                    correo += p2;
 
+                     correo += p;
+                    correo += p2;
             }
             catch (Exception e)
             {
